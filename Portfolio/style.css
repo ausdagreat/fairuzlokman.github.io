@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+:root{
+    --grey: #202124;
+    --yellow-font: #d3c851;
+    --yellow-bgd: #1d1c16;
+}
+.full-width{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* NAV */
+nav{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 30px;
+}
+
+
+/* PROFILE */
+.profile{
+    background-color: black;
+    padding-block: 300px;
+}
+.profile .container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile .container h1, h2{
+    color: white;
+}
+
+
+/* ABOUT */
+.about{
+    height: 600px;
+    background-color: black;
+    display: flex;
+    gap: 7px;
+    padding-bottom: 7px;
+}
+
+
+/* PROJECT */
+.project{
+    height: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.project .container{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 7px;
+}
+.deco-box{
+    width: 10%;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 30px 80px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+.deco-box h1{
+    font-size: 800%;
+    transform: rotate(-90deg);
+}
+.project-1{
+    width: 50%;
+    background-color: var(--grey);
+    border-radius: 30px 80px;
+    padding: 20px;
+}
+.column-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.project-card{
+    width: 100%;
+    height: 100%;
+    background-color: var(--grey);
+    border-radius: 30px 80px;
+    padding: 20px;
+} 
+
+/* FOOTER */
+footer{
+    background-color: black;
+    /* padding-block: 20px; */
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;    
+}
+ul{
+    list-style: none;
+    width: 80%;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
