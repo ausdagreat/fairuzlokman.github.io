@@ -56,9 +56,10 @@ nav a{
     background-image: url(./Assets/giphy.gif);
     /* background-color: black; */
     height: 100vh;
+    display: flex;
     /* justify-content: center; */
-    /* align-items: center; */
-    padding-block: 250px;
+    align-items: center;
+    /* padding-block: 250px; */
 }
 #profile .container{
     background-color: black;
