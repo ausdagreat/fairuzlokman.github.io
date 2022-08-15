@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 498px;
+    background-image: url(./Assets/afbe9d6dfcb9da7c55ddfd60598c82b0\ 1.png);
+    background-size: cover;
+}
+.bi-bookmark-fill{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+
+    background: #5040A1;
+    border-radius: 50%;
+    box-shadow: 0px 4px 28px rgba(80, 64, 161, 0.6);
+    font-size: 25px;
+    color: white;
+    top: 498px;
+    right: 83px;
+    transform: translate(0, -50%);
+}
+
+section{
+    width: 100vw;
+}
+.container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-block: 40px;
+}
+.left-column{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-title > h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+.main-title > p{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 151.02%;    
+    color: #000000;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 30px;
+}
+#userName{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5040A1;
+}
+#postTime{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C1C1C1;    
+}
+.event-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 151.02%;
+    color: #5040A1;
+    padding-block: 30px;
+}
+.event-desc{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.02%;
+    color: #000000;
+}
+.event-desc > div{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.about{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 151.02%;
+    color: #5040A1; 
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title > p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 156.52%;
+    color: #000000;
+}
+#readMore{
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 151.02%;
+    color: #5040A1;
+}
+.bi-chevron-down{
+    color: #5040A1;
+    padding-left: 5px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+.quest{
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 0 15px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 151.02%;
+    color: #000000;
+}
+.post-faq{
+    padding-top: 50px;
+    gap: 20px;
+}
+.post-faq > .title > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 151.02%;
+    color: #000000;
+}
+#subQuest{
+    width: 715px;
+    height: 92px;    
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 44px 0 28px 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 151.02%;
+    color: #AEAEAE;
+}
+#postBtn{
+    width: 108px;
+    height: 49px;    
+    background: #5040A1;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+
+.right-column{
+    display: flex;
+    justify-content: center;
+}
+.profile-card{
+    position: sticky;
+    top: 0;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 153px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+.profile-card > div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile-card > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#usernameCard{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+#aliasnameCard{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    
+}
+#followBtn{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #5040A1;
+    font-size: 50px;
+}
+#descCard{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 156.52%;
+    color: #000000;
+}
+#readmoreCard{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 151.02%;
+    color: #5040A1;
+}
+
+footer{
+    width: 100vw;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+
+    background: #FFFFFF;
+    box-shadow: 0px -7px 104px -20px rgba(0, 0, 0, 0);
+    padding: 25px 40px 15px 80px;
+    box-shadow: 0px -18px 104px -20px rgba(80, 64, 161, 0.3);
+}
+.left-part > ul{
+    list-style: none;
+    display: flex;
+    gap: 85px;
+}
+.left-part > ul > li{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 151.02%;
+    color: #5040A1;
+}
+.details{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.right-part{
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+#priceState{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#registerBtn{
+    width: 220px;
+    height: 69px;
+    left: 1183px;
+    top: 1081px;
+    background: #5040A1;
+    border-radius: 13px;
+    border: none;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#footerMobile, .prof-card-mob{
+    display: none;
+}
