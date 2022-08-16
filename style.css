@@ -54,7 +54,8 @@ nav a{
 /* PROFILE */
 #profile{
     background-image: url(./Assets/giphy.gif);
-    /* background-color: black; */
+    background-color: var(--purple-font);
+    background-blend-mode: screen;
     height: 100vh;
     display: flex;
     /* justify-content: center; */
